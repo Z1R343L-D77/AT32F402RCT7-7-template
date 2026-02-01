@@ -1,0 +1,74 @@
+# Keil MDK
+*.uvguix.*
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*._ia
+*.crf
+*.d
+*.axf
+*.htm
+*.iex
+*.lnp
+*.sct
+*.map
+*.dep
+*.uvgui.*
+*.uvopt
+*.uvproj
+*.scvd
+mdkv5/Objects/
+mdkv5/Listings/
+mdkv5/*.dep
+
+# Debug files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.lst
+*.map
+*.su
+*.dbgconf
+
+# VS Code
+.vscode/*
+!.vscode/c_cpp_properties.json
+.vscode/keil-assistant.log
+.vscode/*.lock
+.vscode/*.log
+
+# Claude AI
+.claude/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# System
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+build/
+out/
