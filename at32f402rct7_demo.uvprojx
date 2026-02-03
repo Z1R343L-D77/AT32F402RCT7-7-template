@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>AT32F402RCT7,USE_STDPERIPH_DRIVER,AT_START_F402_V1</Define>
               <Undefine></Undefine>
-              <IncludePath>.\bsp;.\cmsis;.\fireware;.\libraries\drivers\inc;.\libraries\drivers\src;.\user\inc;.\user\src;.\libraries\cmsis\cm4\core_support;.\libraries\cmsis\cm4\core_support\dsp;.\libraries\cmsis\dsp\ComputeLibrary\Include;.\libraries\cmsis\dsp\ComputeLibrary\Source</IncludePath>
+              <IncludePath>.\bsp;.\cmsis;.\fireware;.\user\inc;.\user\src;.\libraries\cmsis\cm4\core_support;.\libraries\cmsis\cm4\core_support\dsp;.\libraries\cmsis\dsp\ComputeLibrary\Include;.\libraries\cmsis\dsp\ComputeLibrary\Source;.\fireware\inc;.\fireware\src</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -381,121 +381,6 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>libraries</GroupName>
-          <Files>
-            <File>
-              <FileName>at32f402_405_acc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_acc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_can.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_crc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_crc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_crm.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_crm.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_debug.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_debug.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_ertc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_ertc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_exint.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_exint.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_misc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_misc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_pwc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_pwc.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_qspi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_qspi.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_scfg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_scfg.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_tmr.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_tmr.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_usb.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_usb.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_wdt.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_wdt.c</FilePath>
-            </File>
-            <File>
-              <FileName>at32f402_405_wwdt.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\libraries\drivers\src\at32f402_405_wwdt.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>cmsis</GroupName>
           <Files>
             <File>
@@ -507,6 +392,121 @@
               <FileName>startup_at32f402_405.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\cmsis\startup_at32f402_405.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>fireware</GroupName>
+          <Files>
+            <File>
+              <FileName>at32f402_405_acc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_acc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_adc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_adc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_can.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_can.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_crc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_crc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_crm.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_crm.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_debug.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_debug.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_ertc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_ertc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_exint.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_exint.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_misc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_misc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_pwc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_pwc.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_qspi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_qspi.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_scfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_scfg.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_tmr.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_usb.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_usb.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_wdt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_wdt.c</FilePath>
+            </File>
+            <File>
+              <FileName>at32f402_405_wwdt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fireware\src\at32f402_405_wwdt.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -546,10 +546,14 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>fireware</GroupName>
-        </Group>
-        <Group>
           <GroupName>readme</GroupName>
+          <Files>
+            <File>
+              <FileName>Readme.md</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\readme\Readme.md</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>

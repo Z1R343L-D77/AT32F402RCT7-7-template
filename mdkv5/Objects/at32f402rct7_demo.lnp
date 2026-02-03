@@ -1,4 +1,6 @@
 --cpu=Cortex-M4.fp.sp
+".\mdkv5\objects\system_at32f402_405.o"
+".\mdkv5\objects\startup_at32f402_405.o"
 ".\mdkv5\objects\at32f402_405_acc.o"
 ".\mdkv5\objects\at32f402_405_adc.o"
 ".\mdkv5\objects\at32f402_405_can.o"
@@ -21,8 +23,6 @@
 ".\mdkv5\objects\at32f402_405_usb.o"
 ".\mdkv5\objects\at32f402_405_wdt.o"
 ".\mdkv5\objects\at32f402_405_wwdt.o"
-".\mdkv5\objects\system_at32f402_405.o"
-".\mdkv5\objects\startup_at32f402_405.o"
 ".\mdkv5\objects\at32f402_405_clock.o"
 ".\mdkv5\objects\at32f402_405_int.o"
 ".\mdkv5\objects\main.o"

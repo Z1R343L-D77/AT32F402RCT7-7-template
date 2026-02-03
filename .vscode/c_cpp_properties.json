@@ -3,17 +3,17 @@
         {
             "name": "template",
             "includePath": [
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\bsp",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\cmsis",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\fireware",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\drivers\\inc",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\drivers\\src",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\user\\inc",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\user\\src",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\cmsis\\cm4\\core_support",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\cmsis\\cm4\\core_support\\dsp",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\cmsis\\dsp\\ComputeLibrary\\Include",
-                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_Code_demo\\libraries\\cmsis\\dsp\\ComputeLibrary\\Source"
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\bsp",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\cmsis",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\fireware",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\drivers\\inc",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\drivers\\src",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\user\\inc",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\user\\src",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\cmsis\\cm4\\core_support",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\cmsis\\cm4\\core_support\\dsp",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\cmsis\\dsp\\ComputeLibrary\\Include",
+                "d:\\01_my_document\\desktop\\01_contest_about\\06_jlc_version\\10_at32\\001_at32f402_code\\001_f402RCT7-7_template\\libraries\\cmsis\\dsp\\ComputeLibrary\\Source"
             ],
             "defines": [
                 "AT32F402RCT7",
